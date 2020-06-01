@@ -1,0 +1,16 @@
+.block{
+	padding: 20px;
+    margin-top: 20px;
+}
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid purple;
+}
+#triangle-down:hover {
+  transition: transform 3s;
+  transition-timing-function: ease-in-out; 
+  transform: scale(0);
+}

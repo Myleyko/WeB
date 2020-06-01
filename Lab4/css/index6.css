@@ -1,0 +1,25 @@
+.block{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid;
+  }
+
+#triangle-down:hover {
+    animation: infinite triangle_anim 10s linear;
+}
+
+@keyframes triangle_anim {
+    from {border-top-color: red  ; transform: scale(1, 1)     translate(50px) rotate(45deg);}
+    17% {border-top-color: black ; transform: scale(0.8, 0.9) translate(100px) rotate(180deg); }
+    55% {border-top-color: red   ; transform: scale(1, -0.7) translate(200px) rotate(360deg); }
+    70% {border-top-color: black ; transform: scale(-1, 0.6) translate(100px) rotate(540deg); }
+    to {border-top-color: red    ; transform: scale(0.6, -0.4) translate(0px) rotate(720deg); }
+}

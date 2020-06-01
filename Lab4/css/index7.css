@@ -1,0 +1,64 @@
+#flex-div {
+display: flex;
+flex-wrap: wrap;
+height: 180px;
+}
+              
+#flex-div > div {
+margin: auto;
+}
+              
+#flex-top1{ width: 30%; height: 33%; background: rgb(226, 190, 232);}
+#flex-top2{ width: 15%; height: 33%; background: rgb(255, 239, 133);}
+#flex-top3{ width: 15%; height: 33%; background: rgb(245, 113, 128);}
+#flex-top4{ width: 15%; height: 33%; background: rgb(250, 212, 217);}
+#flex-top5{ width: 25%; height: 33%; background: rgb(255, 243, 166);}
+
+#flex-mid1{ width: 15%; height: 33%; background: rgb(157, 250, 245);}
+#flex-mid2{ width: 20%; height: 33%; background: rgb(157, 199, 250);}
+#flex-mid3{ width: 20%; height: 33%; background: rgb(219, 164, 245);}
+#flex-mid4{ width: 20%; height: 33%; background: rgb(245, 198, 159);}
+#flex-mid5{ width: 25%; height: 33%; background: rgb(242, 176, 90);}
+
+#flex-down1{ width: 30%; height: 33%; background: rgb(218, 247, 54);}
+#flex-down2{ width: 20%; height: 33%; background: rgb(243, 252, 187);}
+#flex-down3{ width: 15%; height: 33%; background: rgb(245, 194, 255);}
+#flex-down4{ width: 35%; height: 33%; background: rgb(226, 190, 232);}
+
+
+#grid-div{
+  height: 30vw;
+  width: 70vw;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 25% 15% 10% 40%;
+  grid-template-rows: 15% 20% 15% 15% 15% 20%;
+}
+
+#grid-div {
+  display: grid;
+  grid-template-rows: 15% 9.5% 16% 11% 5.5% 10.5% 13.5% 19%;
+  grid-template-columns: 26% 18% 12% 18% 26%;
+  height: 500px;
+}
+
+#block1{grid-column: 1; grid-row: 1; background: rgb(226, 190, 232);}
+#block2{grid-column: 2/6; grid-row: 1; background: rgb(255, 239, 133);}
+#block3{grid-column: 1/4; grid-row: 2; background: rgb(245, 113, 128);}
+#block4{grid-column: 4; grid-row: 2; background: rgb(250, 212, 217);}
+#block5{grid-column: 5; grid-row: 2/6; background: rgb(255, 243, 166);}
+#block6{grid-column: 1; grid-row: 3/5; background: rgb(234, 255, 166);}
+#block7{grid-column: 2/4; grid-row: 3; background: rgb(160, 242, 97);}
+#block8{grid-column: 4; grid-row: 3; background: rgb(148, 255, 185);}
+#block9{grid-column: 1; grid-row: 5/7; background: rgb(157, 250, 245);}
+#block10{grid-column: 2; grid-row: 4/7; background: rgb(157, 199, 250);}
+#block11{grid-column: 3; grid-row: 4/7; background: rgb(219, 164, 245);}
+#block12{grid-column: 4; grid-row: 4/8; background: rgb(245, 198, 159);}
+#block13{grid-column: 5; grid-row: 6/8; background: rgb(242, 176, 90);}
+#block14{grid-column: 1; grid-row: 7/9; background: rgb(245, 221, 103);}
+#block15{grid-column: 2; grid-row: 7; background: rgb(218, 247, 54);}
+#block16{grid-column: 2; grid-row: 8; background: rgb(243, 252, 187);}
+#block17{grid-column: 3; grid-row: 7/9; background: rgb(245, 194, 255);}
+#block18{grid-column: 4/6; grid-row: 8; background: rgb(226, 190, 232);}

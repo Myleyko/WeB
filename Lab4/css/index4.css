@@ -1,0 +1,17 @@
+.block{
+	padding: 20px;
+    margin-top: 20px;
+}
+
+#circle {
+    width: 250px;
+    height: 250px;
+    background: purple;
+    border-radius: 50%;
+} 
+#circle:hover { 
+    background-color:yellow;
+    transform: scale(0.7,0.7);
+    transition-duration: 0.75s; 
+    transition-timing-function: ease;
+}

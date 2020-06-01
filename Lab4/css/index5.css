@@ -1,0 +1,18 @@
+.block{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#square {
+    width: 200px;
+    height: 200px;
+    animation: infinite square_anim 21.5s;
+}
+  
+@keyframes square_anim {
+    0% {background-color: red;}
+    13% {background-color: orange;}
+    50% {background-color: yellow;}
+    87% {background-color: green;}
+    100% {background-color: blue;}
+}
